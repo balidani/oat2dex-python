@@ -72,7 +72,7 @@ def processOat(oat_file_name):
 
     print "Processing \'%s\'" % oat_file_name
     try:
-        f = open(oat_file_name, 'r')
+        f = open(oat_file_name, 'rb')
 
         try:
             s = f.read()
